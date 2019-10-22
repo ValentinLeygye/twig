@@ -1,0 +1,18 @@
+{
+    "name": "valentintl/quete_twig",
+    "description": "quete sur twig",
+    "authors": [
+        {
+            "name": "Valentin",
+            "email": "valentintexier@outlook.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "index.php\\": "src/views"
+        }
+    }
+}
